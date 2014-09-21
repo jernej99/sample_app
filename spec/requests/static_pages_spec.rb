@@ -21,7 +21,7 @@ describe "Static pages" do
     expect(page).to have_title(full_title('Welcome to the Sample App'))
     click_link "Sign up now!"
     expect(page).to # fill in
-    click_link "Sample app"
+    click_link "sample app"
     expect(page).to # fill in
   end
 
